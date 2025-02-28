@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 80px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header h2 {
+  margin: 10px 0 0;
+  font-size: 2rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #000000;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.content-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.content-links a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.content-links a:hover {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+
+/* Video Container */
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.video-item {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.video-item video {
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
+.video-description {
+  padding: 15px;
+  font-size: 16px;
+  color: #555;
+}
+
+
+
+
+
+
+.results-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.result {
+  text-align: center;
+}
+
+.result h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.result p {
+  font-size: 1.2rem;
+  color: #007BFF;
+}
+
+.result img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
