@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VeVisible</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">Ve<span>Visible</span></a>
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Us</a>
+          </li>
+
+          <li>
+            <a href="price.html" class="navbar-link" data-nav-link>Pricing</a>
+          </li>
+
+         
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact </a>
+          </li>
+
+          
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="section__container header__container">
+          
+          <h1 data-sr-id="2" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0.5s;">Making Brands Visible<br> <span></span></h1>
+          <div class="header__btns" data-sr-id="3" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 1s cubic-bezier(0.5, 0, 0, 1) 1.5s, transform 1s cubic-bezier(0.5, 0, 0, 1) 1.5s;">
+            <a href="###">
+            <button class="btn">Get In Touch</button>
+          </a>
+            
+          </div>
+      </section>
+  
+      <section class="steps" id="about">
+        <div class="section__container steps__container">
+          <h2 class="section__header">
+            Recent <span>Clients</span>
+          </h2>
+          <p class="section__description">
+            At VeVisible, we ensure your brand gets the visibility it needs to succeed just like our recent Clients did.
+          </p>
+          <div class="logos">
+            <div class="logos-slide" style="display: flex;">
+              <img src="./logos/3m.svg" />
+              <img src="./logos/barstool-store.svg" />
+              <img src="./logos/budweiser.svg" />
+              <img src="./logos/buzzfeed.svg" />
+              <img src="./logos/forbes.svg" />
+              <img src="./logos/macys.svg" />
+              <img src="./logos/menshealth.svg" />
+              <img src="./logos/mrbeast.svg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+     
+
+
+      <body>
+        <div class="wrapper">
+          <h2 class="section__header">
+            Our <span>Services</span>
+          </h2>
+       
+        
+        <div class="content-box">
+             <div class="card">
+                 <i class="bx bx-bar-chart-alt bx-md"></i>
+                 <h2>Social Media Consulting</h2>
+                 <p>
+                   We bring 10+ year of experience, and help brands navigate social media through workshops and strategic consulting.
+                 </p>
+             </div>
+
+             <div class="card">
+               <i class="bx bx-laptop bx-md"></i>
+               <h2>Influencer Marketing</h2>
+               <p>
+                 We bring 10+ year of experience, and help brands navigate social media through workshops and strategic consulting.
+               </p>
+           </div>
+
+           <div class="card">
+               <i class="bx bx-line-chart bx-md"></i>
+               <h2>Paid Social Advertising</h2>
+               <p>
+                 We bring 10+ year of experience, and help brands navigate social media through workshops and strategic consulting.
+               </p>
+           </div>         
+        </div>
+    </div>
+</body>
+
+<h2 class="section__header">
+  <a href="###">
+    <button class="btn">See More</button>
+  </a>
+</h2>
+ <!-- 
+        - #PROJECT
+      -->
+
+      <style>
+        .project-card {
+          position: relative;
+          overflow: hidden;
+          border-radius: 10px;
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+      
+        .project-card video {
+          width: 100%;
+          height: auto;
+          border-radius: 10px;
+        }
+      
+        .card-content-project {
+          position: absolute;
+          bottom: 10px;
+          left: 10px;
+          background: rgba(0, 0, 0, 0.6);
+          color: white;
+          padding: 10px;
+          border-radius: 5px;
+        }
+      
+        .card-title-project a {
+          color: #fff;
+          text-decoration: none;
+        }
+      </style>
+      
+      <section class="section project" id="project" aria-label="project">
+        <div class="container">
+      
+          <h2 class="section__header">
+            Success <span>Cases</span>
+          </h2>
+      
+          <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+          </p>
+      
+          <ul class="grid-list">
+      
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder">
+                  <video width="510" height="700" autoplay loop muted playsinline>
+                    <source src="/assets/videos/1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </figure>
+                <div class="card-content">
+                  
+                  <p class="card-subtitle">Success Case 01</p>
+                  <h3><a href="#" class="card-title-project">Klap</a></h3>
+                  <a href="sucesscase01.html" class="btn btn-primary">View Case</a>
+                </div>
+
+
+              </div>
+            </li>
+      
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder">
+                  <video width="510" height="700" autoplay loop muted playsinline>
+                    <source src="/assets/videos/main2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </figure>
+                
+              </div>
+            </li>
+      
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder">
+                  <video width="510" height="700" autoplay loop muted playsinline>
+                    <source src="/assets/videos/main3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </figure>
+                
+              
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+
+
+      <h2 class="section__header">
+        <a href="###">
+          <button class="btn">See More</button>
+        </a>
+      </h2>
+
+
+
+
+
+
+      
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">Let's Contact With Us</h2>
+
+          <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna
+            aliqua.
+          </p>
+
+          <form action="" class="contact-form">
+
+            <div class="input-wrapper">
+              <input type="text" name="name" aria-label="name" placeholder="Your name*" required class="input-field">
+
+              <input type="email" name="email_address" aria-label="email" placeholder="Email address*" required
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <input type="text" name="subject" aria-label="subject" placeholder="Subject" class="input-field">
+
+              <input type="number" name="phone" aria-label="phone" placeholder="Phone number" class="input-field">
+            </div>
+
+            <textarea name="message" aria-label="message" placeholder="Your message...*" required
+              class="input-field"></textarea>
+
+            <div class="checkbox-wrapper">
+              <input type="checkbox" name="terms_and_policy" id="terms" required class="checkbox">
+
+              <label for="terms" class="label">
+                Accept <a href="#" class="label-link">Terms of Services</a> and <a href="#" class="label-link">Privacy
+                  Policy</a>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+
+          </form>
+
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <div class="contact-card">
+
+                <div class="card-icon">
+                  <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Mail Here</h3>
+
+                  <a href="mailto:hello@luaz.com" class="card-link">hello@luaz.com</a>
+                  <a href="mailto:info@luaz.com" class="card-link">info@luaz.com</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-card">
+
+                <div class="card-icon">
+                  <ion-icon name="map-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Visit Here</h3>
+
+                  <address class="card-address">
+                    27 Division St, New York,<br>
+                    NY 10002, USA
+                  </address>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-card">
+
+                <div class="card-icon">
+                  <ion-icon name="headset-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Call Here</h3>
+
+                  <a href="tel:+1234567890" class="card-link">+123 456 7890</a>
+                  <a href="tel:+2414524526" class="card-link">+241 452 4526</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy;All Rights Reserved © 2025 VeVisible Developed By  <a href="#" class="copyright-link"> CodesWithQamar</a>
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" aria-label="back to top" data-back-top-btn class="back-top-btn">
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
